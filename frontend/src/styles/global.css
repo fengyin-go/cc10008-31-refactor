@@ -35,3 +35,15 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .error-text { color: #b42318; }
 .status-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend-item { background: #eef2f7; border-radius: 999px; padding: 2px 10px; }
+.panel-title { font-size: 15px; margin: 18px 0 8px; padding-left: 8px; border-left: 3px solid var(--brand); }
+.draft-panel { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin-top: 14px; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px 14px; margin-bottom: 12px; }
+.form-grid label span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 3px; }
+.form-grid input, .form-grid select { width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; }
+.result-block { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; margin-bottom: 10px; }
+.result-block summary { cursor: pointer; font-weight: 600; font-size: 13px; }
+.inner-table { margin-top: 8px; }
+.row-selected { background: #eef4ff; }
+.link.danger { color: #b42318; }
+.ok-text { color: #067647; font-size: 13px; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
